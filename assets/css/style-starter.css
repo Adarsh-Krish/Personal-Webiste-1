@@ -3371,7 +3371,8 @@ span.red-color {
 }
 
 .w3l-banner-main .bannerhny-content {
-  background: url(../images/banner2.jpg) top;
+  background: url(../images/ab1.jpg) top;
+
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -6519,7 +6520,7 @@ div.ppt {
 }
 
 .w3l-download-main .download-content {
-  background: url(../images/banner3.jpg) top;
+  background: url(../images/banner2.jpg) top;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
