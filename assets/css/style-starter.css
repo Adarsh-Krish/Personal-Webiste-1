@@ -7469,7 +7469,7 @@ div.ppt {
 
 .w3l-contact-main .top-map {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 880px;
 }
 
 .w3l-contact-main .map iframe {
@@ -7536,8 +7536,6 @@ div.ppt {
 }
 
 .w3l-contact-main .cont-details {
-  border-top: 1px solid #ddd;
-  margin-top: 60px;
   text-align: center;
 }
 
@@ -18709,10 +18707,12 @@ a.text-dark:focus {
 }
 
 /* Social Media Icons */
+
+
 .social-icon {
-  padding: 18px;
-  font-size: 30px;
-  width: 53px;
+  padding: 10px;
+  font-size: 18px;
+  width: 38px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -18743,6 +18743,10 @@ a.text-dark:focus {
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #bc2a8d;
+  color: white;
+}
+.fa-envelope-o{
+  background: #bb0000;
   color: white;
 }
