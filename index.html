@@ -240,6 +240,11 @@
           <button onclick="topFunction()" id="movetop" title="Go to top">
             <span class="fa fa-angle-up"></span>
           </button>
+          <a href="https://www.whatsapp.com/">
+          <button id="floatbtn">
+            <span class="fa fa-whatsapp"></span>
+          </button></a>
+
         </div>
       </div>
 
@@ -253,10 +258,13 @@
         function scrollFunction() {
           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             document.getElementById("movetop").style.display = "block";
+            document.getElementById("floatbtn").style.display = "block";
           } else {
             document.getElementById("movetop").style.display = "none";
+            document.getElementById("floatbtn").style.display = "none";
           }
         }
+
 
         // When the user clicks on the button, scroll to the top of the document
         function topFunction() {
@@ -272,6 +280,25 @@
           })
         });
       </script>
+      <!-- Floating Whatsapp Button -->
+            <!-- <script>
+              // When the user scrolls down 20px from the top of the document, show the button
+              window.onscroll = function () {
+                floatScrollFunction()
+              };
+      
+              function floatScrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  document.getElementById("floatbtn").style.display = "block";
+                } else {
+                  document.getElementById("floatbtn").style.display = "none";
+                }
+              }
+            </script> -->
+      <!-- Floating Whatsapp Button End -->
+
+      
+      
     </footer>
     <!-- //footer -->
 </body>

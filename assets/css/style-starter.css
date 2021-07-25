@@ -1299,6 +1299,10 @@ span.red-color {
   content: "";
 }
 
+.fa-whatsapp:before {
+  content: "";
+}
+
 .fa-angle-down:before {
   content: "";
 }
@@ -6593,6 +6597,29 @@ div.ppt {
   color: #fff;
   font-size: 22px;
 }
+
+.w3l-footer-16 #floatbtn {
+  display: none;
+  position: fixed;
+  bottom: 58px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  background: #00fd4c;
+  border-radius: 50px;
+  padding: 0;
+}
+
+.w3l-footer-16 #floatbtn span.fa {
+  line-height: 24px;
+  color: #fff;
+  font-size: 22px;
+}
+
 
 @media screen and (max-width: 991px) {
   .w3l-footer-16 .footer-right {
